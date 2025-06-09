@@ -48,6 +48,10 @@ body {
    /* Styles for mobile devices go here */
  }
  
+ img.panel {
+   width: 100%;
+ }
+
  nav.horizontal {
    order: 99;
  }
