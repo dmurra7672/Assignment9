@@ -49,20 +49,22 @@ body {
    ============================================
 */
 @media only screen and (max-width: 480px) {
-   /* Styles for mobile devices go here */
+   img.panel {
+      width: 100%;
+    }
+   
+    nav.horizontal {
+      order: 99;
+    }
  }
  
- img.panel {
-   width: 100%;
- }
 
- nav.horizontal {
-   order: 99;
- }
 
 
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
-
+@media only screen and (min-width: 481px) {
+   /* Styles for tablets and desktops go here */
+ }
