@@ -72,4 +72,9 @@ body {
       flex-wrap: nowrap;
       height: 40px;
     }
+
+    nav.horizontal ul li {
+      flex: 1 1 auto;
+    }
+
  }
