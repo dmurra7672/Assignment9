@@ -66,5 +66,10 @@ body {
    ===================================================
 */
 @media only screen and (min-width: 481px) {
-   /* Styles for tablets and desktops go here */
+   nav.horizontal ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      height: 40px;
+    }
  }
