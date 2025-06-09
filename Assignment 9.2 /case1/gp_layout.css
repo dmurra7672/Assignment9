@@ -47,7 +47,10 @@ body {
 @media only screen and (max-width: 480px) {
    /* Styles for mobile devices go here */
  }
-
+ 
+ nav.horizontal {
+   order: 99;
+ }
 
 
 /* ===================================================
